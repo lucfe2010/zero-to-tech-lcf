@@ -2,3 +2,5 @@ dist
 node_modules
 out
 .next
+__pycache__/
+*.py[cod]
