@@ -4,3 +4,5 @@ out
 .next
 __pycache__/
 *.py[cod]
+
+.env*
