@@ -16,7 +16,8 @@ def save_record(record):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
 
-def get_history():
+def get_history(limit):
     records = load_history()
     records.reverse()
-    return records[:10]
+    return records[:limit]
+
