@@ -12,7 +12,7 @@ export default function TextLabPage({ current, onNavigate }) {
       {/* 顶部 hero：导航 + 大标题，两块都是两页共用的组件 */}
       <article className="hero-stage panel-full">
         <Nav current={current} onNavigate={onNavigate} />
-        <PageHeading title="文字实验室" subtitle="拼音和情绪，挖掘中文里的细节" />
+        <PageHeading title="文字实验室-lcf" subtitle="拼音和情绪，挖掘中文里的细节" />
       </article>
 
       <InputCard />
